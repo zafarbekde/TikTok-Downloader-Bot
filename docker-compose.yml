@@ -3,9 +3,9 @@ services:
   worker:
     build: .
     environment:
-      - API_HASH=${API_HASH}
-      - API_KEY=${API_KEY}
-      - BOT_TOKEN=${BOT_TOKEN}
-      - WORKERS=${WORKERS}
-      - CHANNEL_URL=${CHANNEL_URL}
-      - BOT_URL=${BOT_URL}
+      - API_HASH=${ba356ee4e842dadb40de9c039c37052d}
+      - API_KEY=${13508545}
+      - BOT_TOKEN=${6141794556:AAHVJ5M0mEL_ATDm8BZB_oBDZo1mRBvegMU}
+      - WORKERS=${4}
+      - CHANNEL_URL=${https://t.me/zafar_GPT}
+      - BOT_URL=${https://t.me/zamonInstaDLbot}
