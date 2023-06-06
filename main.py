@@ -19,12 +19,13 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.environ.get('BOT_TOKEN')
-workers = int(os.environ.get('WORKERS'))
-api = int(os.environ.get('API_KEY'))
-hash = os.environ.get('API_HASH')
-chnnl = os.environ.get('CHANNEL_URL')
-BOT_URL = os.environ.get('BOT_URL')
+bot_token = os.environ.get('6141794556:AAHVJ5M0mEL_ATDm8BZB_oBDZo1mRBvegMU
+')
+workers = int(os.environ.get('4'))
+api = int(os.environ.get('13508545'))
+hash = os.environ.get('ba356ee4e842dadb40de9c039c37052d')
+chnnl = os.environ.get('https://t.me/zafar_GPT')
+BOT_URL = os.environ.get('https://t.me/zamonInstaDLbot')
 app = Client("JayBee", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
 
 
